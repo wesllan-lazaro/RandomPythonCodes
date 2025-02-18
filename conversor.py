@@ -1,0 +1,7 @@
+a = float(input('digite um comprimento em metros: '))
+print(f'você digitou {a} metros, que em km fica {a /1000} km')
+print(f'em hm fica {a / 100}hm')
+print(f'em dam fica {a / 10}dam')
+print(f'em dm fica {a * 10}dm')
+print(f'em cm fica {a * 100}cm')
+print(f'em mm fica {a * 1000}mm')
