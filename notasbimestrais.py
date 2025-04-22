@@ -1,0 +1,5 @@
+a = float(input('digite a nota do primeiro mês'))
+b = float(input('do segundo mês: '))
+c = float(input('do terceiro: '))
+d = float(input('finalmente do quarto mês: '))
+print(f'a sua media nesse semestre foi {(a + b+ c + d) / 4}')

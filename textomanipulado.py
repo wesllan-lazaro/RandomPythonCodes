@@ -1,0 +1,7 @@
+a = input('digite seu nome: ')
+print('analisando seu nome..')
+print(f'em maisculas fica: {a.upper()}')
+print(f'tudo em minusculo fica {str.lower(a)}')
+print(f'o seu nome tem um total de {len(a)} letras')
+b = a.split()
+print(f'a primeira palavra é {b[0]}')
